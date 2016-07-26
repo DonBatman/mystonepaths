@@ -16,6 +16,7 @@ for i in ipairs(material) do
 	local imgtile = material[i][2]
 	local mat = material[i][3]
 
+minetest.register_alias("mypaths:path_"..mat, "mystonepaths:path_"..mat)
 
 
 minetest.register_node("mystonepaths:path_"..mat, {
