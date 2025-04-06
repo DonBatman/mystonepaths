@@ -16,9 +16,6 @@ for i in ipairs(material) do
 	local imgtile = material[i][2]
 	local mat = material[i][3]
 
-minetest.register_alias("mypaths:path_"..mat, "mystonepaths:path_"..mat)
-
-
 minetest.register_node("mystonepaths:path_"..mat, {
 	description = ""..matdesc.." Path",
 	drawtype = "nodebox",
@@ -77,6 +74,8 @@ if minetest.get_modpath("myores") then
 			{"Marble","myores_marble","marble"},
 			{"Chromium","myores_chromium","chromium"},
 			{"Manganese","myores_manganese","manganese"},
+			{"Quartz","myores_quartz","quartz"},
+			{"Chalcopyrite","myores_chalcopyrite","chalcopyrite"},
 			}
 			
 	
