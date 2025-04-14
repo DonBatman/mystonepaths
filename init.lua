@@ -76,6 +76,15 @@ if minetest.get_modpath("myores") then
 			{"Manganese","myores_manganese","manganese"},
 			{"Quartz","myores_quartz","quartz"},
 			{"Chalcopyrite","myores_chalcopyrite","chalcopyrite"},
+			{"Cobalt","myores_cobalt","cobalt"},
+			{"Uvarovite","myores_uvarovite","uvarovite"},
+			{"Selenite","myores_selenite","selenite"},
+			{"Miserite","myores_miserite","miserite"},
+			{"Limonite","myores_limonite","limonite"},
+			{"Sulfur","myores_sulfur","sulfur"},
+			{"Lapis Lazuli","myores_lapis_lazuli","lapis_lazuli"},
+			{"Emerald","myores_emerald","emerald"},
+			{"Amethyst","myores_amethyst","amethyst"},
 			}
 			
 	
