@@ -52,6 +52,13 @@ minetest.register_node("mystonepaths:path_"..mat, {
         },
 	on_place = minetest.rotate_node
 })
+
+if core.get_modpath("lucky_block") then
+	lucky_block:add_blocks({
+		{"dro", {"mystonepaths:path_"..mat}, 15},
+	})
+end
+
 --Craft
 minetest.register_craft({
 	output = "mystonepaths:path_"..mat.." 5",
